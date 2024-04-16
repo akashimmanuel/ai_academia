@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const NavigationBar = () => {
   return (
-    <nav className="bg-[#05162c] text-white flex items-center justify-between p-4" style={{ height: '80px' }}>
+    <nav className="bg-[#05162c] text-white flex items-center justify-between p-4" style={{ height: '80px', width:"100%" }}>
       <div className="container mx-auto flex justify-between items-center h-full px-2">
         <Image
           src="/logo.webp" // Adjust the path if your file is in a different folder

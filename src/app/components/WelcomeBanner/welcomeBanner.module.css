@@ -1,0 +1,26 @@
+/* welcomeBanner.module.css or in a global stylesheet */
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .fadeInUp {
+    animation: fadeInUp 0.8s ease-out forwards;
+  }
+  
+  .buttonHover {
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+  }
+  
+  .buttonHover:hover,
+  .buttonHover:focus {
+    background-color: #5891b2;
+    transform: scale(1.05);
+  }
+  

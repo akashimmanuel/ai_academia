@@ -1,14 +1,22 @@
 import Head from 'next/head';
-import NavigationBar from "../components/NavigationBar";
-import WelcomeBanner from "../components/WelcomeBanner";
-import Footer from '../components/Footer';
+import NavigationBar from '@/app/components/Navbar/NavigationBar';
+import WelcomeBanner from '@/app/components/WelcomeBanner/WelcomeBanner';
+import Footer from '@/app/components/Footer/Footer';
 
 export default function Home() {
     return (
       <div>
-      <Head>
-          <title>AI Academia Projects</title>
-          <link rel="icon" href="/favicon.ico" />
+          <Head>
+            <title>AI Academia Projects</title>
+            <meta name="description" content="Explore top AI projects, learn new skills, and enhance your understanding of artificial intelligence through hands-on experience." />
+            <meta name="keywords" content="AI projects, artificial intelligence, student projects, academia, AI education"/>
+            <link rel="icon" href="/favicon.ico" />
+            <meta property="og:title" content="AI Academia Projects for Students"/>
+            <meta property="og:description" content="Dive into our AI projects specifically tailored for students and boost your AI knowledge."/>
+            <meta property="og:type" content="website"/>
+            <meta property="og:url" content="https://aiacademiaprojects.akashimmanuel.in"/>
+            <meta property="og:site_name" content="AI Academia Projects"/>
+            <link rel="canonical" href="https://aiacademiaprojects.akashimmanuel.in"/>
       </Head>
       <NavigationBar />
       <main>
